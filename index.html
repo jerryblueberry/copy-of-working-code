@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jawalakhel Burger House</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/copy.css" />
+    <link rel="icon" type="image/x-icon" href="/images/LOGO.png" />
+  </head>
+  <body>
+    <!--  styles -->
+
+    <style>
+      .title_bug {
+        font-size: 1.1rem;
+      }
+      .title_get {
+        margin-left: 1rem;
+        font-family: monospace;
+      }
+
+      .getting_contact h5 {
+        margin-top: 1rem;
+      }
+      .google_map {
+        margin-top: -25rem;
+        margin-left: 34rem;
+        float: left;
+      }
+      /* .icon_media{
+        margin-top: -13rem;
+        margin-left: -12rem;
+      } */
+
+      .sub_text_footer {
+        margin-top: 5rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1rem;
+      }
+      .encode_technologies {
+        margin-top: -2.7rem;
+      }
+      #contact {
+        height: 33.5rem;
+      }
+      .social_media {
+        margin-left: 28rem;
+        display: inline-flex;
+        column-gap: 2rem;
+      }
+      .ri-instagram-line,
+      .ri-facebook-box-fill {
+        color: #fff;
+        text-decoration: none;
+      }
+      .icon_media:hover {
+        text-decoration: none;
+      }
+
+      .navbar-light .navbar-nav .nav-link {
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-left: 2rem;
+        font-family: 'Oswald', sans-serif;
+      }
+      .navbar-light .navbar-nav .active > .nav-link {
+        color: white;
+        text-decoration: underline solid 4px black;
+      }
+      .title_bug {
+        color: rgba(24, 16, 16, 0.617);
+      }
+      .logo_img {
+        margin-top: -1rem;
+      }
+
+      nav {
+        box-shadow: 0px 2px 5px #777;
+        background-color: #eab42b;
+        height: 90px;
+      }
+      @media screen and (max-width: 1088px) {
+        .navbar-brand {
+          font-size: small;
+          margin-top: rem;
+        }
+        .img_about {
+          width: 500px;
+        }
+        .heading_about {
+          margin-left: 2rem;
+        }
+        .content_about {
+          margin-top: -15rem;
+        }
+      }
+
+      @media screen and (max-width: 992px) {
+        .navbar-brand {
+          font-size: small;
+          margin-top: -2rem;
+        }
+        .img_about {
+          width: 480px;
+        }
+        .content_about {
+          margin-top: -17rem;
+        }
+        .desc_about {
+          margin-top: -0.1rem;
+        }
+      }
+      @media screen and (max-width: 672px) {
+        .navbar-brand {
+          font-size: 11px;
+        }
+        nav {
+          margin-left: -0.75rem;
+        }
+      }
+
+      @media screen and (max-width: 542px) {
+        .navbar-brand {
+          font-size: 9px;
+        }
+        .navbar-brand img {
+          width: 80px;
+        }
+      }
+      /* @media screen and (max-width: 415px) {
+        .img_about {
+          width: 300px;
+          margin-left: 2.5rem;
+
+          margin-right: 1rem;
+        }
+        .content_about {
+          display: inline-block;
+          margin-top: 14rem;
+          margin-left: 1rem;
+        }
+        .navbar-brand {
+          font-size: 10px;
+          margin-left: 8rem;
+        }
+        .navbar-brand img {
+          width: 70px;
+          margin-top: -0.3rem;
+          margin-left: 1.2rem;
+        }
+        .navbar-toggler {
+          font-size: small;
+          margin-top: -8rem;
+          margin-left: 19rem;
+        }
+        .title_bug {
+          display: block;
+          margin-left: -6.9rem;
+          margin-top: -2.2rem;
+        }
+      } */
+      @media screen and (max-width: 1088px) {
+        .navbar-brand {
+          font-size: small;
+          margin-top: rem;
+        }
+      }
+      @media screen and (max-width: 603px) {
+        .navbar-brand {
+          font-size: small;
+          margin-top: rem;
+        }
+        .title_bug {
+          font-size: 9px;
+        }
+      }
+      /*  for the pixel check for 376 */
+      /* @media screen and (max-width: 376px) {
+        .navbar-toggler {
+          margin-top: -50px;
+        }
+        .logo_img {
+          margin-top: -28px;
+        }
+        .title_bug {
+          margin-top: -27px;
+        }
+        .navbar-brand {
+          font-size: small;
+          margin-top: rem;
+        }
+        nav {
+          margin-right: px;
+        }
+        img {
+          width: auto;
+        }
+        .about_sect {
+          margin-top: -21rem;
+          margin-left: -2.5rem;
+        }
+        .heading_about {
+          margin-top: -12rem;
+          margin-left: 4rem;
+        }
+        .desc_about {
+          margin-top: 1rem;
+          margin-left: 3rem;
+        }
+        .menu_title {
+          margin-left: 8rem;
+        }
+        .menu_cont {
+          margin-left: -12.5rem;
+        }
+        .image_section_menu {
+          display: inline-flex;
+          margin-left: -3.6rem;
+          margin-top: 11px;
+        }
+        .image1_menu {
+          width: 200px;
+          height: 200px;
+        }
+        .image2_menu {
+          width: 200px;
+          height: 200px;
+        }
+        .gallery_title {
+          margin-top: -2rem;
+          color: black;
+          margin-left: -11rem;
+          float: right;
+          padding-left: -11rem;
+          font-size: 22px;
+        }
+        .row {
+          margin-top: -64px;
+        }
+        .contact_cont {
+          margin-top: 12rem;
+        }
+        .frame_map {
+          width: 350px;
+          height: 180px;
+          margin-top: -12rem;
+        }
+        .getting_contact {
+          margin-left: 12rem;
+        }
+        .get_title {
+          font-size: 22px;
+        }
+        .Sitemap {
+          margin-left: 1rem;
+        }
+        .sub_text_footer {
+          margin-top: -6rem;
+          padding-top: 31px;
+        }
+        .footer {
+          border-top: 4px solid rgba(255, 0, 0, 0);
+          margin-left: 1rem;
+        }
+        .menu {
+          margin-top: -12rem;
+        }
+        .contact {
+          margin-top: -12rem;
+          width: auto;
+        }
+        .title_get {
+          font-size: 12px;
+        }
+      } */
+
+      /* @media screen and (max-width: 401px) {
+        .navbar-toggler {
+          margin-top: -41px;
+
+          margin-left: 328px;
+        }
+        .title_bug {
+          margin-top: -29px;
+          margin-left: -82px;
+        }
+        .logo_img {
+          margin-top: -28px;
+        }
+        .about_sect {
+          margin-top: -21rem;
+          margin-left: -1.5rem;
+        }
+        .heading_about {
+          margin-top: -12rem;
+          margin-left: 4rem;
+        }
+        .desc_about {
+          margin-top: 1rem;
+          margin-left: 3rem;
+        }
+        .menu_title {
+          margin-left: 8rem;
+          margin-top: -10rem;
+        }
+        .menu_cont {
+          margin-left: -12.5rem;
+        }
+        .image_section_menu {
+          display: inline-flex;
+          margin-left: -3.6rem;
+          margin-top: 11px;
+        }
+        .image1_menu {
+          width: 200px;
+          height: 200px;
+          padding-right: 12px;
+        }
+        .image2_menu {
+          width: 200px;
+          height: 200px;
+        }
+        .gallery_title {
+          margin-top: -2rem;
+          color: black;
+          margin-left: -11rem;
+          float: right;
+          padding-left: -11rem;
+          font-size: 22px;
+        }
+        .row {
+          margin-top: -64px;
+        }
+        .contact_cont {
+          margin-top: 12rem;
+        }
+        .frame_map {
+          width: 350px;
+          height: 180px;
+          margin-top: -10rem;
+        }
+        .getting_contact {
+          margin-left: 12rem;
+        }
+        .get_title {
+          font-size: 22px;
+        }
+        .Sitemap {
+          margin-left: 1rem;
+        }
+        .sub_text_footer {
+          margin-top: -6rem;
+          padding-top: 31px;
+        }
+        .footer {
+          margin-left: 1rem;
+          border-top: none;
+        }
+        .title_get {
+          font-size: 12px;
+        }
+        #contact {
+          height: 1000px;
+          margin-top: -11rem;
+        }
+      } */
+
+      /*  trying for the mobile all length */
+
+      @media screen and (max-width: 433px) {
+        body {
+          zoom: 63%;
+          max-width: 39.9rem;
+        }
+        .nav-item {
+          background-color: rgba(0, 0, 0, 0.273);
+        }
+
+        nav {
+          width: 42.9rem;
+        }
+        .navbar-toggler {
+          margin-top: -3.5rem;
+          margin-left: 34rem;
+          font-size: 0.75rem;
+        }
+        .logo_img {
+          margin-top: -11px;
+          margin-left: 18rem;
+          font-size: 1rem;
+        }
+        .title_bug {
+          margin-top: -1.5rem;
+          display: block;
+          margin-left: 8rem;
+          font-size: 0.75rem;
+          position: absolute;
+        }
+        .about_sect {
+          margin-top: -4rem;
+          margin-left: 1rem;
+        }
+        .img_about {
+          max-width: 40rem;
+          margin-left: 2rem;
+        }
+        .heading_about {
+          margin-left: 1rem;
+          margin-top: 19rem;
+          font-weight: 700;
+          font-size: 1.8rem;
+          margin-right: -11rem;
+        }
+        #home {
+          width: 41.4rem;
+        }
+        .desc_about {
+          margin-top: 2rem;
+          font-size: 1.4rem;
+          width: 19rem;
+          padding-right: -41rem;
+          margin-left: -29rem;
+        }
+        .menu_title {
+          margin-top: 32rem;
+          margin-left: 18rem;
+        }
+        .image_section_menu {
+          margin-left: 4rem;
+          display: inline-flex;
+          margin-top: 1.8rem;
+          padding: 0px -12px;
+        }
+        .image1_menu {
+          width: 12rem;
+          height: 15rem;
+          padding-right: 0.7rem;
+        }
+
+        .image2_menu {
+          width: 12rem;
+          height: 15rem;
+          margin-left: -0.4rem;
+        }
+        .menu_pdf {
+          font-size: 1rem;
+          margin-top: 1rem;
+          margin-left: 11.5rem;
+        }
+        .image3_menu {
+          width: 12rem;
+          height: 15.5rem;
+        }
+        .image4_menu {
+          height: 15rem;
+          width: 10rem;
+          margin-left: -2rem;
+        }
+        .gallery_title {
+          margin-top: 1.4rem;
+          color: black;
+          margin-left: 15rem;
+          font-size: 1.7rem;
+
+          padding-left: -11rem;
+        }
+        /*  for the  number of the image model  */
+        .numbertext {
+          margin-left: 1rem;
+        }
+        .row {
+          margin-top: 1rem;
+          width: 42.1rem;
+        }
+
+        .row .column img {
+          max-height: 120px;
+          min-height: 120px;
+        }
+        /*  for the modalshow IMage section */
+        .mySlides img {
+          height: 40rem;
+          width: 80rem;
+          margin-left: 0.2rem;
+        }
+        .modal {
+          max-height: 65rem;
+          zoom: 170%;
+        }
+        .prev {
+          background-color: wheat;
+        }
+        .next {
+          background-color: wheat;
+        }
+        .contact_cont {
+          margin-top: 0.2rem;
+        }
+        .close {
+          background-color: red;
+          font-size: 12rem;
+        }
+        .google_map {
+          margin-left: 1rem;
+          float: left;
+          margin-top: 8rem;
+        }
+        .frame_map {
+          width: 30.5rem;
+          height: 20rem;
+          margin-top: -8rem;
+          margin-left: -11rem;
+        }
+        .getting_contact {
+          margin-left: 20rem;
+          font-size: 1.5rem;
+        }
+        .Sitemap {
+          margin-left: 1rem;
+        }
+        .sub_text_footer {
+          margin-top: 24rem;
+          font-size: 1.2rem;
+        }
+        .footer {
+          margin-left: 4rem;
+          border: none;
+          margin-top: -21rem;
+        }
+
+        .footer_text {
+          font-size: 1rem;
+          margin-top: 42rem;
+        }
+        .encode_technologies {
+          margin-top: 2.5rem;
+          margin-left: 4rem;
+          font-size: 1.4rem;
+          display: inline-flex;
+        }
+        .Sitemap p a {
+          font-size: 1.1rem;
+        }
+
+        #contact {
+          width: 41.2rem;
+          height: auto;
+        }
+
+        .about {
+          width: 40rem;
+        }
+
+        .icon_media {
+          margin-left: -22rem;
+        }
+        .close {
+          margin-left: -11rem;
+          font-size: 2rem;
+          color: white;
+        }
+        .modal-content {
+          margin-left: -1rem;
+        }
+        .social_media {
+          display: ;
+          padding-left: 13rem;
+          font-size: 2rem;
+          margin-top: 1rem;
+        }
+        .icon_media {
+          border: 3px solid white;
+          border-radius: 80%;
+          padding: 8px;
+          font-size: 27px;
+          background-color: white;
+        }
+        .ri-facebook-box-fill,
+        .ri-instagram-line {
+          color: black;
+          text-decoration: none;
+        }
+        .icon_media i:hover {
+          text-decoration: none;
+        }
+        .check_icon2 {
+          margin-left: 5rem;
+        }
+      }
+    </style>
+
+    <!--  styles end -->
+    <!--  navbar  -->
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-#eab42b">
+      <a class="navbar-brand" href="#"
+        ><img
+          alt=""
+          src="images/LOGO.png"
+          class="logo_img"
+          width="130px"
+          height="130px"
+        /><strong class="title_bug"
+          >JAWALAKHEL BURGER HOUSE AND CRUNCHY FRIED CHICKEN</strong
+        ></a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu"> Menu </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--  carousel -->
+    <section id="home">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="images/main.jpg"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/1.jpg" alt="Second slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/2.jpg" alt="Third slide" />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <!-- carousel -->
+
+    <!--  About section -->
+    <section id="about">
+      <div class="about_sect">
+        <div class="about_title">
+          <img src="images/burger.jpg" alt="burger image" class="img_about" />
+        </div>
+        <div class="content_about">
+          <h5 class="heading_about">We are Here to Serve</h5>
+          <p class="desc_about">
+            Jawalakhel Burger house and Crunchy Fried<span>
+              Chicken Focuses more on hospitality and foodquality with the
+              satisfaction of the customers . The feedbacks we get are monthly
+              evaluated to give you the sastisfaction of better fastfood
+              restaurant in Nepal. Every moment you cherish are captured and
+              posted on our official fb page. The free delivery service all over
+              Kathmandu Valley is gracious service to our customers.</span
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+      <div class="menu_cont">
+        <div class="cont_title_menu"><h5 class="menu_title">Our Menu</h5></div>
+        <div class="image_section_menu">
+          <img
+            alt=""
+            class="image1_menu"
+            src="images/image_menu.jpg"
+            width="300px"
+            height="400px"
+          />
+          <img class="image2_menu" src="images/remove_2.png" width="300px" />
+          <img class="image3_menu" src="images/menu_3.jpg" width="300px" />
+
+          <!-- <img class="image3_menu" src="images/1.jpg" width="300px" />
+          <img class="image4_menu" src="images/menu2.jpg" width="300px" /> -->
+          <!--  add a download able pdf file for all the menus -->
+        </div>
+      </div>
+
+      <!--  later for downloadable pdf menu -->
+      <div class="menu_pdf">
+        <div class="menu_pdf_file">
+          <a href="/images/menu_file.pdf" download
+            ><button class="btn_download">
+              Click me To Download Menu
+              <i class="ri-file-download-fill"></i></button
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section  End-->
+
+    <!--  Gallery Section Start -->
+    <section id="gallery" class="gallery_section">
+      <h5 class="gallery_title">Our Gallery</h5>
+
+      <div class="row">
+        <div class="column">
+          <img
+            alt=""
+            src="images/main.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(1)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            alt=""
+            src="images/1.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(2)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            alt=""
+            src="images/2.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(3)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            alt="as"
+            src="images/3.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(5)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="images/4.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(6)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="images/7.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(7)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="images/image_5.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(8)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="images/image_6.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(9)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="images/image_7.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(10)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="images/8.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(11)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="images/4.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(12)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="images/4.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(13)"
+            class="hover-shadow cursor"
+          />
+        </div>
+      </div>
+
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+          <div class="mySlides">
+            <div class="numbertext">1 / 12</div>
+            <img src="images/main.jpg" alt="" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 12</div>
+            <img src="images/1.jpg" alt="" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 12</div>
+            <img src="images/2.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">4 / 12</div>
+            <img src="images/3.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">5/ 12</div>
+            <img src="images/4.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">6/ 12</div>
+            <img src="images/7.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">7/ 12</div>
+            <img src="images/4.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">8/ 12</div>
+            <img src="images/4.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">9/ 12</div>
+            <img src="images/4.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">10/ 12</div>
+            <img src="images/4.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">11/ 12</div>
+            <img src="images/8.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">12/ 12</div>
+            <img src="images/4.jpg" style="width: 100%" />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img_nature_wide.jpg"
+              style="width: 100%"
+              onclick="currentSlide(1)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img_snow_wide.jpg"
+              style="width: 100%"
+              onclick="currentSlide(2)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img_mountains_wide.jpg"
+              style="width: 100%"
+              onclick="currentSlide(3)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img_lights_wide.jpg"
+              style="width: 100%"
+              onclick="currentSlide(4)"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  Gallery section end -->
+
+    <!--  Contact Section Start -->
+    <section id="contact" class="contact">
+      <!--  Only background section -->
+
+      <div class="contact_cont">
+        <div class="Sitemap">
+          <h5>Sitemap</h5>
+          <p><a href="#home">Home</a></p>
+          <p><a href="#about">About Us</a></p>
+          <p><a href="#menu">Menu</a></p>
+          <p><a href="#gallery">Gallery</a></p>
+          <p><a href="#contact">Contact</a></p>
+        </div>
+        <div class="getting_contact">
+          <h5 class="get_title">Getting There</h5>
+
+          <h5 class="loct_icon">
+            <i class="ri-map-pin-line"
+              ><span class="title_get">Jawalakhel,Lalitpur,Nepal</span></i
+            >
+          </h5>
+          <h5 class="phone_icon">
+            <i class="ri-phone-fill"
+              ><span class="title_get">982-3678167</span></i
+            >
+          </h5>
+          <h5 class="gmail_icon">
+            <i class="ri-at-line"
+              ><span class="title_get">@burgerhouse.com</span></i
+            >
+          </h5>
+          <h5 class="clock_icon">
+            <i class="ri-time-fill"><span class="title_get">6am-11pm</span></i>
+          </h5>
+          <h5 class="calender_icon">
+            <i class="ri-calendar-event-line"
+              ><span class="title_get">Sun-Sat</span></i
+            >
+          </h5>
+        </div>
+        <!-- <div class="social_media">
+          <div class="check_icon">
+            <button class="icon_media">
+              <a href="https://www.facebook.com/profile.php?id=100077721983137"
+                ><i class="ri-facebook-box-fill"></i
+              ></a>
+            </button>
+          </div>
+          <div class="check_icon2">
+            <button class="icon_media">
+              <a href="#instagram"><i class="ri-instagram-line"></i></a>
+            </button>
+          </div
+        </div> -->
+        <div class="google_map">
+          <iframe
+            class="frame_map"
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7066.849724411744!2d85.30758792284215!3d27.67326068122418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sjawalakhel%20burger%20house!5e0!3m2!1sen!2snp!4v1676278306053!5m2!1sen!2snp"
+            width="400"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div class="footer">
+        <footer class="footer_text">
+          <p class="sub_text_footer">
+            © 2023 Jawalakhel Burger House and Chrunchy Fried Chicken. All
+            rights reserved.
+          </p>
+          <p class="encode_technologies">Designed By Encode Technologies.</p>
+        </footer>
+      </div>
+
+      <!--  End of only background section -->
+    </section>
+
+    <!--  Contact section end -->
+
+    <script src="js/lightbox-plus-jquery.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function openModal() {
+        document.getElementById('myModal').style.display = 'block';
+      }
+
+      function closeModal() {
+        document.getElementById('myModal').style.display = 'none';
+      }
+
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName('mySlides');
+        var dots = document.getElementsByClassName('demo');
+        var captionText = document.getElementById('caption');
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = 'none';
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(' active', '');
+        }
+        slides[slideIndex - 1].style.display = 'block';
+        dots[slideIndex - 1].className += ' active';
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+      }
+    </script>
+  </body>
+</html>
